@@ -1,28 +1,3 @@
-/*
- * ============================================================
- *  Console Quiz Game in C++
- *  COP 2006 - Programming I
- *  Author: [Your name]
- * ============================================================
- *
- *  Description:
- *    The player chooses "Play" and the game asks 10 random
- *    questions taken from a pool of 100. The pool is split into
- *    10 categories of 10 questions each. The answer options are
- *    also shuffled every time, so the right answer is never in a
- *    fixed spot. After each answer the next question appears right
- *    away, with feedback on the last answer at the top. After the
- *    round, the game shows the score, a letter grade and a breakdown
- *    by category. The best scores are kept on a top-10 leaderboard
- *    while the program is running.
- *
- *  C++ topics used:
- *    Arrays, pointers (dynamic memory with new/delete and arrays
- *    of pointers), control structures and loops, functions,
- *    classes and objects, and exceptions.
- * ============================================================
- */
-
 #include <iostream>
 #include <string>
 #include <stdexcept>
